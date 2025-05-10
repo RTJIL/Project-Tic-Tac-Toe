@@ -22,6 +22,10 @@ Functions that return new objects.
 
 ### 4. **Object Shorthand Notation**
 Create objects faster by skipping the redundancy.  
+```js
+const name = "Josh";
+const user = { name }; // Instead of { name: name }
+```
 
 ---
 A simple 3x3 Tic-Tac-Toe game built using HTML, CSS, and JavaScript (ES6+). The game uses modular JavaScript patterns like IIFE and closures to handle game logic, win conditions, and UI updates without global variables.
@@ -36,8 +40,3 @@ Win and draw detection logic
 Replay/reset functionality
 
 Clean DOM interaction without external libraries
-
-```js
-const name = "Josh";
-const user = { name }; // Instead of { name: name }
-
